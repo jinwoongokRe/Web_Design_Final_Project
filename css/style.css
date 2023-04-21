@@ -20,7 +20,7 @@ header {
 
 header h1 {
 	margin: 0;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 /* Main Styles */
@@ -75,10 +75,10 @@ button[type="submit"]{ /* button type too, once*/
     margin-bottom: 10px;
 }
 
-button[type="button"] { /* button type too, once*/
+button[type="button"].click-button { /* button type too, once*/
 	/* background-color: #003399; */
     background: linear-gradient(45deg, #ac8bef, #2ddbdc);
-    transition: background-color 1s;
+    
 	color: white;
 	padding: 10px 20px;
 	border: none;
@@ -86,6 +86,7 @@ button[type="button"] { /* button type too, once*/
 	font-size: 1.1em;
 	cursor: pointer;
     margin-bottom: 10px;
+	transition: background-color 1s;
 }
 
 
@@ -93,8 +94,19 @@ button[type="submit"]:hover { /* if our pointer on this button */
 	background-color: #001f5b;
 }
 button[type="button"]:hover {
-	background-color: #001f5b;
+	/* background-color: #001f5b;  it's not working */
+	background: linear-gradient(45deg, #0000ff, #ff0000);
+
 }
+
+button[type="button"].click-button.clicked {
+	/* Button styles when clicked */
+	/* background-color: #000; */
+	background: linear-gradient(45deg, #0000ff, #240606);
+
+  	color: #fff;
+  	border-color: #fff;
+  }
 
 /* Footer Styles */
 

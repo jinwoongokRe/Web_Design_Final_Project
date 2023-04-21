@@ -1,0 +1,106 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Header Styles 003399 */ 
+
+header {
+	background-color: #003399;  
+	color: white;
+	padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 3em;
+}
+
+/* Main Styles */
+
+main {
+	padding: 20px;
+}
+
+form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 5px; /* box height */
+	border: 2px solid #ccc;
+	border-radius: 4px; /* corner round */
+	font-size: 1.1em; /* not bad */
+	width: 100%; /* relative horizontal length : %*/
+	margin-bottom: 10px; /* margin between this box and the next one*/
+}
+
+input[type="number"] {
+	padding: 5px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 1.1em;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+textarea {
+	height: 130px;
+}
+
+button[type="submit"]{ /* button type too, once*/
+	background-color: #003399;
+    
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 1.1em;
+	cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button[type="button"] { /* button type too, once*/
+	/* background-color: #003399; */
+    background: linear-gradient(45deg, #ac8bef, #2ddbdc);
+    transition: background-color 1s;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 1.1em;
+	cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+button[type="submit"]:hover { /* if our pointer on this button */
+	background-color: #001f5b;
+}
+button[type="button"]:hover {
+	background-color: #001f5b;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: #ccc;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}

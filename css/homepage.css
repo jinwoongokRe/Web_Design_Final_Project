@@ -1,0 +1,46 @@
+
+header{
+    background-color: lightseagreen;
+    height: 110px;
+}
+img{
+    margin-top: 5px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+h2{
+    float: right;
+    font-size: 16px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    
+}
+.img2{
+    size: 200%;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+h5{
+font-size: 20px;
+}
+h6{
+    background-color: lightseagreen;
+    float: bottom;
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+}
+.img3{
+    float: right;
+}
+h7{
+    margin-left: 50px;
+    font-size: 30px;
+}
+

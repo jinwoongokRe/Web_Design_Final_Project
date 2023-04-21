@@ -29,6 +29,27 @@ main {
 	padding: 20px;
 }
 
+
+.container {
+	display: flex;
+	flex-direction: row;
+	max-width: 600px;
+	margin: 0 auto;
+  }
+  
+  .left-column {
+	flex: 1;
+	margin-bottom: 40px; /* margin between this box and the next one*/
+
+  }
+  
+  .right-column {
+	flex: 1;
+	text-align: center;
+
+  }
+  
+
 form {
 	max-width: 600px;
 	margin: 0 auto;

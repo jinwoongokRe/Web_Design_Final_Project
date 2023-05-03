@@ -3,12 +3,17 @@ header{
     background-color: lightseagreen;
     height: 110px;
 }
-img{
-    margin-top: 5px;
+
+#main-background { /* main_background image */
+    max-width: 100%;
+  	height: auto;
+}
+#main-logo { /* logo image */
+    margin-top: 5px; 
     float: left;
     width: 100px;
     height: 100px;
-}
+} */
 h2{
     float: right;
     font-size: 16px;

@@ -4,11 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Outdoor Adventures Home</title>
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link href="css/homepage.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        
+    <script src="https://kit.fontawesome.com/2f05070896.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
-    <header> 
+	<script defer src="custom.js"></script> <!--Since there had some errors, I took this in the body -->
+
+	<nav class="navbar">
+        <div class="navbar__logo">  <!--total 3 boxs we need  -->
+           <!-- <i class="fa-duotone fa-campground"></i> -->
+           <!-- <img src="images/logo.png" alt=logo_img" width="50px"> -->
+           <i class="fa-solid fa-campground"></i>
+           <a href="">MontanaOutdoor</a>
+       </div>
+
+       <ul class="navbar__menu">
+           <li><a href="index.html">Home/About</a></li>
+           <li><a href="shop.html">Shop</a></li>
+           <li><a href="donation.html">Donation</a></li>
+           
+
+       </ul>
+
+       <ul class="navbar__icons">
+           <li class="fa-brands fa-square-twitter"></li>
+           <li class="fa-brands fa-instagram"></li>
+
+       </ul>
+
+       <a href="#" class="navbar__toogleBtn">
+           <i class="fa-solid fa-bars"></i>
+       </a>
+
+   </nav>
+
+    <!-- <header>               //once I made it available.
     <img id="main-logo" src="images/logo.png">
     <h1>  Home </h1>
 
@@ -16,7 +53,7 @@
     <a href='index.html'>Home</a>     <a href='shop.html'>Shop</a>     <a href='donation.html'>Donations</a> 
     </h2>
 
-    </header>
+    </header> -->
 
 <main>
     <!-- <h3> // once, i made it disable.

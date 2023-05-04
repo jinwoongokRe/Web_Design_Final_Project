@@ -4,16 +4,186 @@
 <head>
     <meta charset="UTF-8">
     <title>Outdoor Adventures Shop</title>
+    <link href="css/navbar.css" rel="stylesheet" type="text/css">
     <link href="css/shop.css" rel="stylesheet" type="text/css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        
+    <script src="https://kit.fontawesome.com/2f05070896.js" crossorigin="anonymous"></script>
+    
 </head>
-<header> 
-    <img src="images/logo.png">
-    <h1> 
-    Shop
-    </h1>
 
-    <h2>
-    <a href='index.html'>Home</a>     <a href='shop.html'>Shop</a>     <a href='donation.html'>Events/Donations</a> 
-    </h2>
+<body>
+	<script defer src="custom.js"></script> <!--Since there had some errors, I took this in the body -->
+    
 
-</header>
+	<nav class="navbar">
+        <div class="navbar__logo">  <!--total 3 boxs we need  -->
+           <!-- <i class="fa-duotone fa-campground"></i> -->
+           <!-- <img src="images/logo.png" alt=logo_img" width="50px"> -->
+           <i class="fa-solid fa-campground"></i>
+           <a href="">MontanaOutdoor</a>
+       </div>
+
+       <ul class="navbar__menu">
+           <li><a href="index.html">Home/About</a></li>
+           <li><a href="shop.html">Shop</a></li>
+           <li><a href="donation.html">Donation</a></li>
+           
+
+       </ul>
+
+       <ul class="navbar__icons">
+           <li class="fa-brands fa-square-twitter"></li>
+           <li class="fa-brands fa-instagram"></li>
+
+       </ul>
+
+       <a href="#" class="navbar__toogleBtn">
+           <i class="fa-solid fa-bars"></i>
+       </a>
+
+   </nav>
+<!-- 
+   <div class="product-grid">               //once made it unabileable.
+    <div class="product-item">
+      <img src="images/shopphotos_png/shirt2back.png" alt="Product 1">
+      <h3>Product 1</h3>
+    </div>
+    <div class="product-item">
+      <img src="images/shopphotos_png/shirt3back.png" alt="Product 2">
+      <h3>Product 2</h3>
+    </div>
+    <div class="product-item">
+      <img src="product3.jpg" alt="Product 3">
+      <h3>Product 3</h3>
+    </div>
+    <div class="product-item">
+      <img src="product4.jpg" alt="Product 4">
+      <h3>Product 4</h3>
+    </div>
+    <div class="product-item">
+      <img src="product5.jpg" alt="Product 5">
+      <h3>Product 5</h3>
+    </div>
+    <div class="product-item">
+      <img src="product6.jpg" alt="Product 6">
+      <h3>Product 6</h3>
+    </div>
+    <div class="product-item">
+      <img src="product7.jpg" alt="Product 7">
+      <h3>Product 7</h3>
+    </div>
+    <div class="product-item">
+      <img src="product8.jpg" alt="Product 8">
+      <h3>Product 8</h3>
+    </div>
+    <div class="product-item">
+      <img src="product9.jpg" alt="Product 9">
+      <h3>Product 9</h3>
+    </div>
+  </div>
+   -->
+
+<!-- 
+   <div class="product-grid">               // 2ND Try : unabilavle.
+    <div class="product-item">
+      <div class="product-image" style="background-image: url('/images/shopphotos_png/shirt2back.png')"></div>
+      <h3>Product 1</h3>
+    </div>
+    <div class="product-item">
+      <div class="product-image" style="background-image: url('product2.jpg')"></div>
+      <h3>Product 2</h3>
+    </div>
+    <div class="product-item">
+      <div class="product-image" style="background-image: url('product3.jpg')"></div>
+      <h3>Product 3</h3>
+    </div>
+    <div class="product-item">
+      <div class="product-image" style="background-image: url('product4.jpg')"></div>
+      <h3>Product 4</h3>
+    </div>
+    <div class="product-item">
+      <div class="product-image" style="background-image: url('product5.jpg')"></div>
+      <h3>Product 5</h3>
+    </div>
+    <div class="product-item">
+      <div class="product-image" style="background-image: url('product6.jpg')"></div>
+      <h3>Product 6</h3>
+    </div>
+  </div>
+
+ -->
+
+ <div class="product-grid">
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('/images/shopphotos_png/shirt2back.png')"></div>
+        <div class="product-hover-image" style="background-image: url('/images//shopphotos_png//Shirt2front.png')"></div>
+      </div>
+      <div class="product-name">Product 1</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('images/shopphotos_png/shirt3back.png')"></div>
+        <div class="product-hover-image" style="background-image: url('images//shopphotos_png//Shirt3front.png')"></div>
+      </div>
+      <div class="product-name">Product 2</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('images/shopphotos_png/hat2front.png')"></div>
+        <div class="product-hover-image" style="background-image: url('images/shopphotos_png/hat2back.png')"></div>
+      </div>
+      <div class="product-name">Product 3</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('product4.jpg')"></div>
+        <div class="product-hover-image" style="background-image: url('product4-hover.jpg')"></div>
+      </div>
+      <div class="product-name">Product 4</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('product5.jpg')"></div>
+        <div class="product-hover-image" style="background-image: url('product5-hover.jpg')"></div>
+      </div>
+      <div class="product-name">Product 5</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('product6.jpg')"></div>
+        <div class="product-hover-image" style="background-image: url('product6-hover.jpg')"></div>
+      </div>
+      <div class="product-name">Product 6</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('product7.jpg')"></div>
+        <div class="product-hover-image" style="background-image: url('product7-hover.jpg')"></div>
+      </div>
+      <div class="product-name">Product 7</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('product8.jpg')"></div>
+        <div class="product-hover-image" style="background-image: url('product8-hover.jpg')"></div>
+      </div>
+      <div class="product-name">Product 8</div>
+    </div>
+    <div class="product-item">
+      <div class="product-image-wrapper">
+        <div class="product-image" style="background-image: url('product9.jpg')"></div>
+        <div class="product-hover-image" style="background-image: url('product9-hover.jpg')"></div>
+      </div>
+      <div class="product-name">Product 9</div>
+       
+  
+
+
+
+
+</body>

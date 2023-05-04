@@ -3,14 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Please Donate for Montana Outdoor!</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script defer src="custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/donation.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	
+	<script src="https://kit.fontawesome.com/2f05070896.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header>
+
+
+	<nav class="navbar">
+		 <div class="navbar__logo">  <!--total 3 boxs we need  -->
+			<!-- <i class="fa-duotone fa-campground"></i> -->
+			<!-- <img src="images/logo.png" alt=logo_img" width="50px"> -->
+			<i class="fa-solid fa-campground"></i>
+			<a href="">MontanaOutdoor</a>
+		</div>
+
+		<ul class="navbar__menu">
+			<li><a href="index.html">Home/About</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<li><a href="donation.html">Donation</a></li>
+			
+
+		</ul>
+
+		<ul class="navbar__icons">
+			<li class="fa-brands fa-square-twitter"></li>
+			<li class="fa-brands fa-instagram"></li>
+
+		</ul>
+
+		<a href="#" class="navbar__toogleBtn">
+			<i class="fa-solid fa-bars"></i>
+		</a>
+
+	</nav>
+	<!-- <header>
         
-		<h1>We need your help about Montana Outdoor</h1>
-	</header>
+		<h1>We need your help about Montana Outdoor</h1> // once, I made it unavailable
+	</header> -->
+	
 	<main>
 		<img src="images/donation_background.png" alt="donation_background">
 
@@ -18,12 +54,14 @@
 			<div class="left-column">
 			  <img src="images/montanaOutdoor.jpg" width="100%" alt="Montana Outdoor Image">
 			</div>
-			<div class="right-column">
-			  <h2>Heading</h2>
+			<div id ="box" class="right-column">
+			  <h2>We Are Waiting Your Support !</h2>
 			  <ul>
-				<li>List Item 1</li>
-				<li>List Item 2</li>
-				<li>List Item 3</li>
+				Our Montana Outdoor Association has been running for 40 years.<br>
+				We will strive for unwavering value. <br>
+				Your help will be a great help to us. <br>
+				We look forward to your help. <br>
+				Thank you.
 			  </ul>
 			  
 			  
@@ -56,9 +94,13 @@
 
 			<button type="submit">Donate Now</button>
 		</form>
+		
 	</main>
 	<footer>
 		<p>Thank you for your donation!             2023 Montana Outdoor Organization ™</p>
 	</footer>
+	<script defer src="custom.js"></script> <!--Since there had some errors, I took this in the body -->
+
 </body>
+
 </html>
